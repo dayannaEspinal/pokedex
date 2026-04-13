@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter } from "react-router";
-import { PokemonProvider } from './context/Context.jsx';
+import { BrowserRouter } from 'react-router-dom'
+import { PokemonProvider } from './context/Context.jsx'
 import './index.css'
 import App from './App.jsx'
 
