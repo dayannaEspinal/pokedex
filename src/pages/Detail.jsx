@@ -1,4 +1,4 @@
-import { useParams } from "react-router";
+import { useParams } from "react-router-dom";
 import { usePokemonService } from "../context/Context";
 export const Detail = ()=>{
     const { id } = useParams();
