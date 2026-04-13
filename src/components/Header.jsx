@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 
 const NAV_LINKS = [
     { label: 'Catálogo', path:"/" },

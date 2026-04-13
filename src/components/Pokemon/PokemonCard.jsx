@@ -2,7 +2,7 @@ import Card from '../Cards/Card';
 import CardHeader from '../Cards/CardHeader';
 import CardBody from '../Cards/CardBody';
 import CardFooter from '../Cards/CardFooter';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 
 const PokemonCard = ({ data }) => {
   const redirectTo = useNavigate();
